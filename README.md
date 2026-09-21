@@ -65,4 +65,4 @@ python -m unittest discover -s tests
 - **Hito 2 (Semana 7):** diagrama de clases, programa en Python, pruebas, informe final y video.
 
 ## Gestión del proyecto
-Tablero de Trello: _(pegar enlace)_
+Tablero de Trello: https://trello.com/b/VVIiCeWP/fp2-grupo-2
