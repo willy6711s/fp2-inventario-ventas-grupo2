@@ -10,20 +10,44 @@ emisión de boleta o factura, alertas de stock mínimo y vencimientos, comisione
 valorización del inventario y utilidad.
 
 ## Integrantes y roles
-| Integrante | Rol en el proyecto | Usuario de GitHub |
+| Integrante | Aporte al proyecto | Usuario de GitHub |
 |---|---|---|
-| Anthony Jeremy Astohuayhua Valle | Empresa, problema, generalidades, informe final | @usuario1 |
-| Junior Antonio Chavez Correa | Proceso AS-IS, diagrama de clases | @usuario2 |
-| Max Francisco Ponce Huaman | Alternativas, TO-BE, diagrama de clases | @usuario3 |
-| Ariana Stefany Rojas Solis | Historias de usuario, cronograma, bibliografía, pruebas | @usuario4 |
-| Willy Leonardo Siccha Delgado | Diseño de pantallas, evidencias, informe final | @usuario5 |
+| Anthony Jeremy Astohuayhua Valle | Definió la empresa y el problema, generalidades (misión, visión, organigrama), coordinación del informe final | @usuario1 |
+| Junior Antonio Chavez Correa | Proceso actual (AS-IS) y diagrama de clases | @usuario2 |
+| Max Francisco Ponce Huaman | Alternativas de solución, proceso mejorado (TO-BE) y diagrama de clases | @usuario3 |
+| Ariana Stefany Rojas Solis | Historias de usuario, cronograma en Trello, bibliografía y pruebas | @usuario4 |
+| Willy Leonardo Siccha Delgado | Diseño de pantallas, evidencias y anexos, informe final | @willy6711s |
+
+## Informe
+- Hito 1 (Trabajo Parcial TB1): [`docs/Informe_Hito1_Grupo2.docx`](docs/Informe_Hito1_Grupo2.docx) · [PDF](docs/Informe_Hito1_Grupo2.pdf)
+
+## Funcionalidades (historias de usuario del informe)
+| ID | Funcionalidad | Tipo | Prioridad |
+|---|---|---|---|
+| HU01 | Registrar productos (perecibles y no perecibles) | Control | Alta |
+| HU02 | Buscar productos por código o nombre | Control | Alta |
+| HU03 | Listar, modificar y dar de baja productos | Control | Alta |
+| HU04 | Registrar proveedores | Control | Media |
+| HU05 | Registrar y buscar clientes (DNI o RUC) | Control | Alta |
+| HU06 | Registrar una venta con varios productos y validar stock | Control | Alta |
+| HU07 | Calcular subtotal, descuento por volumen, IGV (18 %) y total | Cálculo | Alta |
+| HU08 | Emitir boleta o factura según el tipo de cliente | Control | Alta |
+| HU09 | Registrar ingresos de mercadería y ajustes de stock | Control | Alta |
+| HU10 | Alertas de productos con stock igual o menor al mínimo | Control | Alta |
+| HU11 | Ver productos próximos a vencer | Control | Media |
+| HU12 | Calcular la comisión de cada vendedor | Cálculo | Media |
+| HU13 | Valorización del inventario (stock × costo) | Cálculo | Media |
+| HU14 | Utilidad bruta y margen por periodo | Cálculo | Media |
+| HU15 | Historial de ventas por fecha, cliente o vendedor | Control | Media |
+| HU16 | Guardar y cargar la información en archivo | Control | Baja |
+
+**Reglas de negocio:** IGV 18 %; descuento por volumen del 5 % cuando el subtotal supera S/ 400; comisión del vendedor del 2 % sobre ventas netas del mes; stock mínimo definido por producto; alerta de vencimiento a 30 días.
 
 ## Estructura del repositorio
 ```
-docs/          Informe (Word/PDF) y diagramas
-docs/diagramas Diagramas AS-IS y TO-BE (y luego el diagrama de clases UML)
-src/           Código fuente en Python (Hito 2)
-tests/         Pruebas de los métodos de negocio con unittest (Hito 2)
+docs/    Informe del proyecto (Word y PDF)
+src/     Código fuente en Python (Hito 2)
+tests/   Pruebas de los métodos de negocio con unittest (Hito 2)
 ```
 
 ## Cómo ejecutar (se completará en el Hito 2)
@@ -41,4 +65,4 @@ python -m unittest discover -s tests
 - **Hito 2 (Semana 7):** diagrama de clases, programa en Python, pruebas, informe final y video.
 
 ## Gestión del proyecto
-Tablero de Trello:
+Tablero de Trello: _(pegar enlace)_
