@@ -29,6 +29,6 @@ Tipo: C = control, K = cálculo. Las 16 historias del informe están cubiertas.
 | RUC con menos de 11 dígitos | `DatoInvalidoError` | El RUC debe tener 11 dígitos. |
 | Precio no numérico | `DatoInvalidoError` | Ingrese un valor numérico válido en 'precio de venta'. |
 | Repuesto que no existe | `EntidadNoEncontradaError` | No existe el repuesto REP-9999. |
-| Código repetido | `EntidadDuplicadaError` | Ya existe un repuestosss con el código REP-0101. |
+| Código repetido | `EntidadDuplicadaError` | Ya existe un repuestos con el código REP-0101. |
 | Cotización fuera de plazo | `CotizacionVencidaError` | La cotización COT-000005 venció el 06/09/2026. |
 | Factura a persona natural | `OperacionNoPermitidaError` | Solo se emite factura a clientes con RUC. Use una boleta. |
