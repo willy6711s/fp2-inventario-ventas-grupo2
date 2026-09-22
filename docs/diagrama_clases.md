@@ -5,7 +5,7 @@ Diagrama en formato Mermaid: GitHub lo renderiza automáticamente en este archiv
 ```mermaid
 classDiagram
     class Persona {
-        <<abstract>>ffddfd
+        <<abstract>>
         +str codigo
         +str nombre
         +str documento
