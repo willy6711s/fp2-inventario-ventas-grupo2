@@ -11,7 +11,7 @@ control de stock con alertas y reporte de comisiones.
 
 ## Cómo ejecutarlo
 
-Requiere **Python 3.9 o superior**. No usa librerías externas.
+Requiere **Python**.
 
 ```
 git clone https://github.com/willy6711s/fp2-inventario-ventas-grupo2
@@ -21,7 +21,6 @@ python main.py            # inicia el menú principal
 python main.py test       # ejecuta las pruebas unitarias
 ```
 
-En Mac o Linux, usar `python3` en lugar de `python`.
 
 ## Estructura del proyecto
 
